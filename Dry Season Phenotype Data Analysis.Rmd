@@ -1,0 +1,60 @@
+---
+title: "Dry Season Phenotype Data Analysis"
+author: "Graeme Vissers"
+date: "9/26/21"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+source("./src/DS_pheno_data_vis.R")
+```
+
+## Dry Season Phenotype Data Analysis
+
+### Background
+Three rice varieites, IR64, IR09L204 (IR108-3), and Nipponbare, were grown in the dry season (sown January 8th, 2021) under four different conditions of nitrogen and water availability (Low N & Low W, Low N & High W, High N & Low W, High N & High W). The following plots demonstrate various phenotypic data gathered from the rice under these varying conditions.
+
+### Leaf Water Potential (LWP)
+
+```{r}
+lwp_bars
+```
+
+### Porometer
+
+```{r}
+porometer_bars
+```
+
+### Crownroot Number
+
+```{r}
+crownroot_bars
+```
+
+### Shoot Dry Weight (SDW)
+
+```{r}
+sdw_bars
+```
+
+### Tiller Number
+
+```{r}
+tiller_bars
+```
+
+### Plant Height
+
+```{r}
+plantht_bars
+```
+
+### Days to Flowering (DTF)
+#### Days until 50% of plants have flowered
+
+```{r}
+dtf_bars
+```
+
